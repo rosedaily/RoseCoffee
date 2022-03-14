@@ -286,3 +286,65 @@ header .badges .badge{
 .visual .fade-in{
   opacity:0;
 }
+/* NOTICE */
+.notice{
+  position: relative;
+}
+.notice .bg-left{
+  width: 50%;
+  height: 100%;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.notice .bg-right{
+  width: 50%;
+  height: 100%;
+  background-color: #f6f5ef;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.notice .inner{
+  height: 62px;
+  display: flex;
+}
+.notice .inner__left{
+  width: 70%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+}
+.notice .inner__left h2{
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.notice .inner__left .swiper{
+  height: 62px;
+  flex-grow: 1;
+}
+.notice .inner__left .notice-more{
+  width: 62px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notice .inner__left .notice-more .material-icons{
+  color: #fff;
+  font-size: 30px;
+}
+.notice .inner__left .swiper .swiper-slide{
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.notice .inner__left .swiper .swiper-slide a{
+  color: #fff;
+}
+.notice .inner__right{
+  width: 30%;
+}
