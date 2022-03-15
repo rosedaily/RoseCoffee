@@ -53,4 +53,4 @@ new Swiper('.notice .swiper',{
   direction : 'vertical',
   autoplay : true,
   loop:true
-});
+}); 
