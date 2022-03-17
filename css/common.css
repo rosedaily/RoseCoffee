@@ -70,6 +70,18 @@ li{
   color: #333;
   background-color: #fff;
 }
+.btn.btn--primary{
+  color: #fff;
+  background-color: #EA9926;
+  border: none;
+}
+.btn.btn--primary:hover{
+  background-color: #cc8823;
+}
+.btn.block{
+  width: 100%;
+}
+
 
 /* BACK TO POSITION */
 .back-to-position{
